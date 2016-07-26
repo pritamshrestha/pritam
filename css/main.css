@@ -6,3 +6,17 @@ p{
 	font-size:40px;
 	color:green;
 }
+body{
+	background-color:orange;
+}
+@media (min-width:600px){
+	h1{
+		font-size:30px;
+		color:blue;
+	}
+}
+@media(min-width:400px){
+	body{
+		background-color:purple;
+	}
+}
